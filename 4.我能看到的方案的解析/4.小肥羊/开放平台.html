@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<!-- saved from url=(0051)https://oppf.xmcsrv.com/#/docs?md=readGuide&lang=zh -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta http-equiv="X-UA-Compatible" content="IE=8"><meta http-equiv="Expires" content="0"><meta http-equiv="Pragma" content="no-cache"><meta http-equiv="Cache-control" content="no-cache"><link rel="icon" href="https://oppf.xmcsrv.com/static/favicon.ico"><title>开放平台</title><script type="text/javascript" src="./开放平台_files/api"></script><script type="text/javascript" src="./开放平台_files/getscript"></script><style>.loading {
+      position: fixed;
+      top: 0;
+      bottom: 0;
+      right: 0;
+      left: 0;
+      background: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      z-index: 1000;
+      transition: all .2s linear;
+    }
+
+    .loading-inner {
+      height: 64px;
+      width: 64px;
+      border: 4px solid rgba(255, 255, 255, .3);
+      border-right-color: #45c28f;
+      border-radius: 50%;
+      animation: rotate 1s linear infinite;
+    }
+
+    @keyframes rotate {
+      from {
+        transform: rotate(0);
+      }
+
+      to {
+        transform: rotate(360deg);
+      }
+    }</style><link href="./开放平台_files/app.3689c587d83d07512d1bd5c339da4acf.css" rel="stylesheet"><script type="text/javascript" charset="utf-8" async="" src="./开放平台_files/0.54418881da45740c6db2.js.下载"></script><script type="text/javascript" charset="utf-8" async="" src="./开放平台_files/9.441a0198a63abe963ae7.js.下载"></script><script type="text/javascript" charset="utf-8" async="" src="./开放平台_files/13.e8f94eeb88bc10ddf7cb.js.下载"></script><script type="text/javascript" charset="utf-8" async="" src="./开放平台_files/1.8105dd7352cd0f71fc12.js.下载"></script><script type="text/javascript" charset="utf-8" async="" src="./开放平台_files/8.8ab7c3f4744a2724f200.js.下载"></script></head><body style="position: relative;"><div class="container fluid" id="app" style="padding: 0px;"><div class="layout column"><div class="flex xs-12"><nav class="home v-toolbar v-toolbar--fixed theme--light" data-booted="true" style="margin-top: 0px; padding-right: 0px; padding-left: 0px; transform: translateY(0px);"><div class="v-toolbar__content" style="height: 64px;"><div class="brand"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAAAqCAYAAABFsP5IAAAACXBIWXMAAAsTAAALEwEAmpwYAAAGr2lUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4gPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgNS42LWMxNDIgNzkuMTYwOTI0LCAyMDE3LzA3LzEzLTAxOjA2OjM5ICAgICAgICAiPiA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPiA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtbG5zOnhtcE1NPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvbW0vIiB4bWxuczpzdFJlZj0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL3NUeXBlL1Jlc291cmNlUmVmIyIgeG1sbnM6c3RFdnQ9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZUV2ZW50IyIgeG1sbnM6ZGM9Imh0dHA6Ly9wdXJsLm9yZy9kYy9lbGVtZW50cy8xLjEvIiB4bWxuczpwaG90b3Nob3A9Imh0dHA6Ly9ucy5hZG9iZS5jb20vcGhvdG9zaG9wLzEuMC8iIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTcgKE1hY2ludG9zaCkiIHhtcDpDcmVhdGVEYXRlPSIyMDE5LTAxLTIzVDE2OjE5OjE4KzA4OjAwIiB4bXA6TW9kaWZ5RGF0ZT0iMjAxOS0wMS0yM1QxNzozNDowNCswODowMCIgeG1wOk1ldGFkYXRhRGF0ZT0iMjAxOS0wMS0yM1QxNzozNDowNCswODowMCIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDpkOGU1OWFjMC1iYWU5LWViNDAtYTAzYy00YmM3NzZhZmY1MjMiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6MjJDQTVBNUQwMzcxMTFFOTkyQ0NCRkE3NzVDQjVBOUQiIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDoyMkNBNUE1RDAzNzExMUU5OTJDQ0JGQTc3NUNCNUE5RCIgZGM6Zm9ybWF0PSJpbWFnZS9wbmciIHBob3Rvc2hvcDpDb2xvck1vZGU9IjMiIHBob3Rvc2hvcDpJQ0NQcm9maWxlPSJzUkdCIElFQzYxOTY2LTIuMSI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOjIyQ0E1QTVBMDM3MTExRTk5MkNDQkZBNzc1Q0I1QTlEIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjIyQ0E1QTVCMDM3MTExRTk5MkNDQkZBNzc1Q0I1QTlEIi8+IDx4bXBNTTpIaXN0b3J5PiA8cmRmOlNlcT4gPHJkZjpsaSBzdEV2dDphY3Rpb249InNhdmVkIiBzdEV2dDppbnN0YW5jZUlEPSJ4bXAuaWlkOmQ4ZTU5YWMwLWJhZTktZWI0MC1hMDNjLTRiYzc3NmFmZjUyMyIgc3RFdnQ6d2hlbj0iMjAxOS0wMS0yM1QxNzozNDowNCswODowMCIgc3RFdnQ6c29mdHdhcmVBZ2VudD0iQWRvYmUgUGhvdG9zaG9wIENDIChXaW5kb3dzKSIgc3RFdnQ6Y2hhbmdlZD0iLyIvPiA8L3JkZjpTZXE+IDwveG1wTU06SGlzdG9yeT4gPHBob3Rvc2hvcDpUZXh0TGF5ZXJzPiA8cmRmOkJhZz4gPHJkZjpsaSBwaG90b3Nob3A6TGF5ZXJOYW1lPSJPUFBGIiBwaG90b3Nob3A6TGF5ZXJUZXh0PSJPUFBGIi8+IDxyZGY6bGkgcGhvdG9zaG9wOkxheWVyTmFtZT0iT1BQRiIgcGhvdG9zaG9wOkxheWVyVGV4dD0iT1BQRiIvPiA8L3JkZjpCYWc+IDwvcGhvdG9zaG9wOlRleHRMYXllcnM+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+AVy2CwAACgdJREFUeJzVW01sFMkV/qqnZ+zR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" alt="" style="top: 0px;"></div> <div class="spacer"></div> <div class="v-toolbar__items"><a href="https://oppf.xmcsrv.com/#/" class="v-btn v-btn--flat v-btn--router theme--light"><div class="v-btn__content">首页</div></a> <div class="v-menu i-menu"><div class="v-menu__content theme--light " style="min-width: 0px; top: 12px; left: 0px; transform-origin: left top; z-index: 0; display: none;"><button type="button" class="v-btn v-btn--flat theme--light"><div class="v-btn__content">产品</div></button> <div role="list" class="v-list theme--light"><div role="listitem" style="cursor: pointer;"><a href="https://oppf.xmcsrv.com/#/product/cs" class="v-list__tile v-list__tile--link theme--light"><div class="v-list__tile__title">产品 - 云存储</div></a></div> <div role="listitem" style="cursor: pointer;"><a href="https://oppf.xmcsrv.com/#/product/cn" class="v-list__tile v-list__tile--link theme--light"><div class="v-list__tile__title">产品 - 蜂窝网络</div></a></div></div></div></div> <a href="https://oppf.xmcsrv.com/#/docs-home" class="v-btn v-btn--flat v-btn--router theme--light v-btn--active"><div class="v-btn__content">文档</div></a> <a href="https://oppf.xmcsrv.com/#/api" class="v-btn v-btn--flat v-btn--router theme--light"><div class="v-btn__content">API</div></a> <a href="https://oppf.xmcsrv.com/#/download" class="v-btn v-btn--flat v-btn--router theme--light"><div class="v-btn__content">下载</div></a> <a href="https://oppf.xmcsrv.com/#/support" class="v-btn v-btn--flat v-btn--router theme--light"><div class="v-btn__content">支持与帮助</div></a> <button type="button" class="v-btn v-btn--flat theme--light"><div class="v-btn__content">控制台</div></button> <button type="button" class="v-btn v-btn--flat theme--light"><div class="v-btn__content">工单</div></button> <a href="https://oppf.xmcsrv.com/#/search" class="v-btn v-btn--flat v-btn--router theme--light" style="width: 64px;"><div class="v-btn__content"><i aria-hidden="true" class="v-icon material-icons theme--light">search</i></div></a></div> <button type="button" class="v-btn v-btn--flat v-btn--small theme--light" style="min-width: 10px; border: 1px solid rgb(65, 65, 65); padding: 3px 8px !important; text-align: center;"><div class="v-btn__content">EN</div></button></div></nav></div> <div class="flex xs-12"><div data-app="true" class="container mdTable fluid" style="margin: 64px 0px 0px; padding: 0px;"><div data-v-5e911bee="" class="layout row wrap"><div data-v-5e911bee="" class="flex banner xs12" style="height: 200px; background: linear-gradient(90deg, rgb(84, 51, 255) 0%, rgb(32, 189, 255) 50%, rgb(165, 254, 203) 100%);"><div data-v-5e911bee="" class="banner-body"><img data-v-5e911bee="" src="./开放平台_files/img_bg_banner.934189a.png" alt="" style="width: 64px; margin: 0px 32px 0px 64px;"> <span data-v-5e911bee="" style="color: white; font-size: 36px;">
+        文档
+      </span> <img data-v-5e911bee="" src="./开放平台_files/img_bg_banner.934189a.png" alt="" style="position: absolute; right: 128px; opacity: 0.15; width: 128px;"></div></div></div> <div class="layout row wrap" style="margin: 32px 124px;"><div class="flex grow pa-3 xs3 sm3 md3 lg3"><div><div class="affix" style="position: fixed; width: 382px; top: 64px; left: 140px;"><div class="tree-wrapper"><ul class="tree"><li><div class="tree-node"><span title="开发者必读" class="tree-node-title" style="font-weight: bold;">
+        开发者必读
+      </span> <i aria-hidden="true" class="v-icon tree-node-arrow material-icons theme--light opened">keyboard_arrow_down</i></div> <div><ul class="tree"><li><div class="tree-node tree-node-active"><span title="新手指南" class="tree-node-title" style="font-weight: normal;">
+        新手指南
+      </span> <!----></div> <div style="display: none;"></div></li></ul><ul class="tree"><li><div class="tree-node"><span title="协议规范" class="tree-node-title" style="font-weight: normal;">
+        协议规范
+      </span> <!----></div> <div style="display: none;"></div></li></ul><ul class="tree"><li><div class="tree-node"><span title="更新日志" class="tree-node-title" style="font-weight: normal;">
+        更新日志
+      </span> <!----></div> <div style="display: none;"></div></li></ul><ul class="tree"><li><div class="tree-node"><span title="控制台操作指南" class="tree-node-title" style="font-weight: normal;">
+        控制台操作指南
+      </span> <!----></div> <div style="display: none;"></div></li></ul></div></li></ul><ul class="tree"><li><div class="tree-node"><span title="WEB开发指南" class="tree-node-title" style="font-weight: bold;">
+        WEB开发指南
+      </span> <i aria-hidden="true" class="v-icon tree-node-arrow material-icons theme--light opened">keyboard_arrow_down</i></div> <div><ul class="tree"><li><div class="tree-node"><span title="示例开发环境说明" class="tree-node-title" style="font-weight: normal;">
+        示例开发环境说明
+      </span> <!----></div> <div style="display: none;"></div></li></ul><ul class="tree"><li><div class="tree-node"><span title="集成准备" class="tree-node-title" style="font-weight: normal;">
+        集成准备
+      </span> <!----></div> <div style="display: none;"></div></li></ul><ul class="tree"><li><div class="tree-node"><span title="库方法说明" class="tree-node-title" style="font-weight: normal;">
+        库方法说明
+      </span> <!----></div> <div style="display: none;"></div></li></ul><ul class="tree"><li><div class="tree-node"><span title="状态码说明" class="tree-node-title" style="font-weight: normal;">
+        状态码说明
+      </span> <!----></div> <div style="display: none;"></div></li></ul><ul class="tree"><li><div class="tree-node"><span title="设备操作说明" class="tree-node-title" style="font-weight: normal;">
+        设备操作说明
+      </span> <!----></div> <div style="display: none;"></div></li></ul></div></li></ul><ul class="tree"><li><div class="tree-node"><span title="Android开发指南" class="tree-node-title" style="font-weight: bold;">
+        Android开发指南
+      </span> <i aria-hidden="true" class="v-icon tree-node-arrow material-icons theme--light opened">keyboard_arrow_down</i></div> <div><ul class="tree"><li><div class="tree-node"><span title="安卓FunSDK集成指南" class="tree-node-title" style="font-weight: normal;">
+        安卓FunSDK集成指南
+      </span> <!----></div> <div style="display: none;"></div></li></ul><ul class="tree"><li><div class="tree-node"><span title="FunSDK初始化" class="tree-node-title" style="font-weight: normal;">
+        FunSDK初始化
+      </span> <!----></div> <div style="display: none;"></div></li></ul><ul class="tree"><li><div class="tree-node"><span title="AP登录初始化例子" class="tree-node-title" style="font-weight: normal;">
+        AP登录初始化例子
+      </span> <!----></div> <div style="display: none;"></div></li></ul><ul class="tree"><li><div class="tree-node"><span title="报警推送" class="tree-node-title" style="font-weight: normal;">
+        报警推送
+      </span> <!----></div> <div style="display: none;"></div></li></ul><ul class="tree"><li><div class="tree-node"><span title="统一说明" class="tree-node-title" style="font-weight: normal;">
+        统一说明
+      </span> <!----></div> <div style="display: none;"></div></li></ul><ul class="tree"><li><div class="tree-node"><span title="库方法" class="tree-node-title" style="font-weight: normal;">
+        库方法
+      </span> <!----></div> <div style="display: none;"></div></li></ul><ul class="tree"><li><div class="tree-node"><span title="系统功能方法" class="tree-node-title" style="font-weight: normal;">
+        系统功能方法
+      </span> <!----></div> <div style="display: none;"></div></li></ul><ul class="tree"><li><div class="tree-node"><span title="媒体功能方法" class="tree-node-title" style="font-weight: normal;">
+        媒体功能方法
+      </span> <!----></div> <div style="display: none;"></div></li></ul><ul class="tree"><li><div class="tree-node"><span title="设备功能方法" class="tree-node-title" style="font-weight: normal;">
+        设备功能方法
+      </span> <!----></div> <div style="display: none;"></div></li></ul><ul class="tree"><li><div class="tree-node"><span title="日志功能方法" class="tree-node-title" style="font-weight: normal;">
+        日志功能方法
+      </span> <!----></div> <div style="display: none;"></div></li></ul><ul class="tree"><li><div class="tree-node"><span title="枚举及结构体" class="tree-node-title" style="font-weight: normal;">
+        枚举及结构体
+      </span> <!----></div> <div style="display: none;"></div></li></ul><ul class="tree"><li><div class="tree-node"><span title="错误码声明" class="tree-node-title" style="font-weight: normal;">
+        错误码声明
+      </span> <!----></div> <div style="display: none;"></div></li></ul><ul class="tree"><li><div class="tree-node"><span title="报警接口声明" class="tree-node-title" style="font-weight: normal;">
+        报警接口声明
+      </span> <!----></div> <div style="display: none;"></div></li></ul><ul class="tree"><li><div class="tree-node"><span title="部分配置说明及常见问题" class="tree-node-title" style="font-weight: bold;">
+        部分配置说明及常见问题
+      </span> <i aria-hidden="true" class="v-icon tree-node-arrow material-icons theme--light opened">keyboard_arrow_down</i></div> <div><ul class="tree"><li><div class="tree-node"><span title="关于FunSDK设备配置的说明" class="tree-node-title" style="font-weight: normal;">
+        关于FunSDK设备配置的说明
+      </span> <!----></div> <div style="display: none;"></div></li></ul><ul class="tree"><li><div class="tree-node"><span title="时间夏令时同步" class="tree-node-title" style="font-weight: normal;">
+        时间夏令时同步
+      </span> <!----></div> <div style="display: none;"></div></li></ul><ul class="tree"><li><div class="tree-node"><span title="用URL初始化报警消息订阅" class="tree-node-title" style="font-weight: normal;">
+        用URL初始化报警消息订阅
+      </span> <!----></div> <div style="display: none;"></div></li></ul></div></li></ul></div></li></ul><ul class="tree"><li><div class="tree-node"><span title="IOS开发指南" class="tree-node-title" style="font-weight: bold;">
+        IOS开发指南
+      </span> <i aria-hidden="true" class="v-icon tree-node-arrow material-icons theme--light opened">keyboard_arrow_down</i></div> <div><ul class="tree"><li><div class="tree-node"><span title="统一说明" class="tree-node-title" style="font-weight: normal;">
+        统一说明
+      </span> <!----></div> <div style="display: none;"></div></li></ul><ul class="tree"><li><div class="tree-node"><span title="iOS集成" class="tree-node-title" style="font-weight: normal;">
+        iOS集成
+      </span> <!----></div> <div style="display: none;"></div></li></ul><ul class="tree"><li><div class="tree-node"><span title="云服务" class="tree-node-title" style="font-weight: normal;">
+        云服务
+      </span> <!----></div> <div style="display: none;"></div></li></ul><ul class="tree"><li><div class="tree-node"><span title="雄迈云账号" class="tree-node-title" style="font-weight: normal;">
+        雄迈云账号
+      </span> <!----></div> <div style="display: none;"></div></li></ul><ul class="tree"><li><div class="tree-node"><span title="库初始化" class="tree-node-title" style="font-weight: normal;">
+        库初始化
+      </span> <!----></div> <div style="display: none;"></div></li></ul><ul class="tree"><li><div class="tree-node"><span title="设备配置" class="tree-node-title" style="font-weight: normal;">
+        设备配置
+      </span> <!----></div> <div style="display: none;"></div></li></ul><ul class="tree"><li><div class="tree-node"><span title="设备管理" class="tree-node-title" style="font-weight: normal;">
+        设备管理
+      </span> <!----></div> <div style="display: none;"></div></li></ul><ul class="tree"><li><div class="tree-node"><span title="实时预览" class="tree-node-title" style="font-weight: normal;">
+        实时预览
+      </span> <!----></div> <div style="display: none;"></div></li></ul><ul class="tree"><li><div class="tree-node"><span title="录像回放" class="tree-node-title" style="font-weight: normal;">
+        录像回放
+      </span> <!----></div> <div style="display: none;"></div></li></ul><ul class="tree"><li><div class="tree-node"><span title="报警推送" class="tree-node-title" style="font-weight: normal;">
+        报警推送
+      </span> <!----></div> <div style="display: none;"></div></li></ul><ul class="tree"><li><div class="tree-node"><span title="微信登录集成" class="tree-node-title" style="font-weight: normal;">
+        微信登录集成
+      </span> <!----></div> <div style="display: none;"></div></li></ul><ul class="tree"><li><div class="tree-node"><span title="客户常见问题" class="tree-node-title" style="font-weight: normal;">
+        客户常见问题
+      </span> <!----></div> <div style="display: none;"></div></li></ul></div></li></ul><ul class="tree"><li><div class="tree-node"><span title="Misc接口" class="tree-node-title" style="font-weight: bold;">
+        Misc接口
+      </span> <i aria-hidden="true" class="v-icon tree-node-arrow material-icons theme--light opened">keyboard_arrow_down</i></div> <div><ul class="tree"><li><div class="tree-node"><span title="在线状态和HLS地址" class="tree-node-title" style="font-weight: normal;">
+        在线状态和HLS地址
+      </span> <!----></div> <div style="display: none;"></div></li></ul><ul class="tree"><li><div class="tree-node"><span title="智能插座相关" class="tree-node-title" style="font-weight: normal;">
+        智能插座相关
+      </span> <!----></div> <div style="display: none;"></div></li></ul><ul class="tree"><li><div class="tree-node"><span title="云存储状态查询" class="tree-node-title" style="font-weight: normal;">
+        云存储状态查询
+      </span> <!----></div> <div style="display: none;"></div></li></ul><ul class="tree"><li><div class="tree-node"><span title="获取云存储录像" class="tree-node-title" style="font-weight: normal;">
+        获取云存储录像
+      </span> <!----></div> <div style="display: none;"></div></li></ul><ul class="tree"><li><div class="tree-node"><span title="设备联动消息推送" class="tree-node-title" style="font-weight: normal;">
+        设备联动消息推送
+      </span> <!----></div> <div style="display: none;"></div></li></ul><ul class="tree"><li><div class="tree-node"><span title="低功耗设备远程唤醒" class="tree-node-title" style="font-weight: normal;">
+        低功耗设备远程唤醒
+      </span> <!----></div> <div style="display: none;"></div></li></ul><ul class="tree"><li><div class="tree-node"><span title="设备报警订阅(URL回调方式)" class="tree-node-title" style="font-weight: normal;">
+        设备报警订阅(URL回调方式)
+      </span> <!----></div> <div style="display: none;"></div></li></ul><ul class="tree"><li><div class="tree-node"><span title="通过报警ID获取报警图片" class="tree-node-title" style="font-weight: normal;">
+        通过报警ID获取报警图片
+      </span> <!----></div> <div style="display: none;"></div></li></ul><ul class="tree"><li><div class="tree-node"><span title="获取云网站一键登录URL" class="tree-node-title" style="font-weight: normal;">
+        获取云网站一键登录URL
+      </span> <!----></div> <div style="display: none;"></div></li></ul></div></li></ul><ul class="tree"><li><div class="tree-node"><span title="NetSDK(windows)" class="tree-node-title" style="font-weight: bold;">
+        NetSDK(windows)
+      </span> <i aria-hidden="true" class="v-icon tree-node-arrow material-icons theme--light opened">keyboard_arrow_down</i></div> <div><ul class="tree"><li><div class="tree-node"><span title="NetSDKWindows开发指南" class="tree-node-title" style="font-weight: normal;">
+        NetSDKWindows开发指南
+      </span> <!----></div> <div style="display: none;"></div></li></ul><ul class="tree"><li><div class="tree-node"><span title="简易开发流程" class="tree-node-title" style="font-weight: normal;">
+        简易开发流程
+      </span> <!----></div> <div style="display: none;"></div></li></ul><ul class="tree"><li><div class="tree-node"><span title="接口函数使用" class="tree-node-title" style="font-weight: normal;">
+        接口函数使用
+      </span> <!----></div> <div style="display: none;"></div></li></ul><ul class="tree"><li><div class="tree-node"><span title="枚举及结构体" class="tree-node-title" style="font-weight: normal;">
+        枚举及结构体
+      </span> <!----></div> <div style="display: none;"></div></li></ul><ul class="tree"><li><div class="tree-node"><span title="错误码说明" class="tree-node-title" style="font-weight: normal;">
+        错误码说明
+      </span> <!----></div> <div style="display: none;"></div></li></ul><ul class="tree"><li><div class="tree-node"><span title="常见问题" class="tree-node-title" style="font-weight: normal;">
+        常见问题
+      </span> <!----></div> <div style="display: none;"></div></li></ul></div></li></ul><ul class="tree"><li><div class="tree-node"><span title="MyEyeSDK开发指南" class="tree-node-title" style="font-weight: bold;">
+        MyEyeSDK开发指南
+      </span> <i aria-hidden="true" class="v-icon tree-node-arrow material-icons theme--light opened">keyboard_arrow_down</i></div> <div><ul class="tree"><li><div class="tree-node"><span title="MyEye简易开发文档" class="tree-node-title" style="font-weight: normal;">
+        MyEye简易开发文档
+      </span> <!----></div> <div style="display: none;"></div></li></ul><ul class="tree"><li><div class="tree-node"><span title="错误码说明" class="tree-node-title" style="font-weight: normal;">
+        错误码说明
+      </span> <!----></div> <div style="display: none;"></div></li></ul><ul class="tree"><li><div class="tree-node"><span title="接口定义" class="tree-node-title" style="font-weight: normal;">
+        接口定义
+      </span> <!----></div> <div style="display: none;"></div></li></ul></div></li></ul><ul class="tree"><li><div class="tree-node"><span title="智能音箱操作说明" class="tree-node-title" style="font-weight: bold;">
+        智能音箱操作说明
+      </span> <i aria-hidden="true" class="v-icon tree-node-arrow material-icons theme--light opened">keyboard_arrow_down</i></div> <div><ul class="tree"><li><div class="tree-node"><span title="天猫精灵使用指南" class="tree-node-title" style="font-weight: normal;">
+        天猫精灵使用指南
+      </span> <!----></div> <div style="display: none;"></div></li></ul><ul class="tree"><li><div class="tree-node"><span title="Amazon Alexa使用指南" class="tree-node-title" style="font-weight: normal;">
+        Amazon Alexa使用指南
+      </span> <!----></div> <div style="display: none;"></div></li></ul></div></li></ul><ul class="tree"><li><div class="tree-node"><span title="微信小程序开发" class="tree-node-title" style="font-weight: bold;">
+        微信小程序开发
+      </span> <i aria-hidden="true" class="v-icon tree-node-arrow material-icons theme--light opened">keyboard_arrow_down</i></div> <div><ul class="tree"><li><div class="tree-node"><span title="开发起步" class="tree-node-title" style="font-weight: normal;">
+        开发起步
+      </span> <!----></div> <div style="display: none;"></div></li></ul><ul class="tree"><li><div class="tree-node"><span title="接口列表" class="tree-node-title" style="font-weight: normal;">
+        接口列表
+      </span> <!----></div> <div style="display: none;"></div></li></ul></div></li></ul><ul class="tree"><li><div class="tree-node"><span title="峰云API" class="tree-node-title" style="font-weight: bold;">
+        峰云API
+      </span> <i aria-hidden="true" class="v-icon tree-node-arrow material-icons theme--light opened">keyboard_arrow_down</i></div> <div><ul class="tree"><li><div class="tree-node"><span title="峰云开发文档" class="tree-node-title" style="font-weight: normal;">
+        峰云开发文档
+      </span> <!----></div> <div style="display: none;"></div></li></ul><ul class="tree"><li><div class="tree-node"><span title="获取生成公钥参数" class="tree-node-title" style="font-weight: normal;">
+        获取生成公钥参数
+      </span> <!----></div> <div style="display: none;"></div></li></ul><ul class="tree"><li><div class="tree-node"><span title="登录" class="tree-node-title" style="font-weight: normal;">
+        登录
+      </span> <!----></div> <div style="display: none;"></div></li></ul><ul class="tree"><li><div class="tree-node"><span title="登出" class="tree-node-title" style="font-weight: normal;">
+        登出
+      </span> <!----></div> <div style="display: none;"></div></li></ul><ul class="tree"><li><div class="tree-node"><span title="获取项目列表" class="tree-node-title" style="font-weight: normal;">
+        获取项目列表
+      </span> <!----></div> <div style="display: none;"></div></li></ul><ul class="tree"><li><div class="tree-node"><span title="新增项目" class="tree-node-title" style="font-weight: normal;">
+        新增项目
+      </span> <!----></div> <div style="display: none;"></div></li></ul><ul class="tree"><li><div class="tree-node"><span title="更新项目" class="tree-node-title" style="font-weight: normal;">
+        更新项目
+      </span> <!----></div> <div style="display: none;"></div></li></ul><ul class="tree"><li><div class="tree-node"><span title="删除项目" class="tree-node-title" style="font-weight: normal;">
+        删除项目
+      </span> <!----></div> <div style="display: none;"></div></li></ul><ul class="tree"><li><div class="tree-node"><span title="获取设备列表" class="tree-node-title" style="font-weight: normal;">
+        获取设备列表
+      </span> <!----></div> <div style="display: none;"></div></li></ul><ul class="tree"><li><div class="tree-node"><span title="获取设备直播地址" class="tree-node-title" style="font-weight: normal;">
+        获取设备直播地址
+      </span> <!----></div> <div style="display: none;"></div></li></ul><ul class="tree"><li><div class="tree-node"><span title="获取请求设备播放地址(包括回放存储列表)" class="tree-node-title" style="font-weight: normal;">
+        获取请求设备播放地址(包括回放存储列表)
+      </span> <!----></div> <div style="display: none;"></div></li></ul><ul class="tree"><li><div class="tree-node"><span title="添加设备" class="tree-node-title" style="font-weight: normal;">
+        添加设备
+      </span> <!----></div> <div style="display: none;"></div></li></ul><ul class="tree"><li><div class="tree-node"><span title="根据设备id删除设备" class="tree-node-title" style="font-weight: normal;">
+        根据设备id删除设备
+      </span> <!----></div> <div style="display: none;"></div></li></ul><ul class="tree"><li><div class="tree-node"><span title="根据设备uuid删除设备" class="tree-node-title" style="font-weight: normal;">
+        根据设备uuid删除设备
+      </span> <!----></div> <div style="display: none;"></div></li></ul><ul class="tree"><li><div class="tree-node"><span title="获取设备报警列表" class="tree-node-title" style="font-weight: normal;">
+        获取设备报警列表
+      </span> <!----></div> <div style="display: none;"></div></li></ul><ul class="tree"><li><div class="tree-node"><span title="取设备最新报警列表" class="tree-node-title" style="font-weight: normal;">
+        取设备最新报警列表
+      </span> <!----></div> <div style="display: none;"></div></li></ul><ul class="tree"><li><div class="tree-node"><span title="AI-人脸样本" class="tree-node-title" style="font-weight: normal;">
+        AI-人脸样本
+      </span> <!----></div> <div style="display: none;"></div></li></ul><ul class="tree"><li><div class="tree-node"><span title="AI-人脸标签" class="tree-node-title" style="font-weight: normal;">
+        AI-人脸标签
+      </span> <!----></div> <div style="display: none;"></div></li></ul><ul class="tree"><li><div class="tree-node"><span title="AI-人脸图片" class="tree-node-title" style="font-weight: normal;">
+        AI-人脸图片
+      </span> <!----></div> <div style="display: none;"></div></li></ul><ul class="tree"><li><div class="tree-node"><span title="AI-人脸考勤" class="tree-node-title" style="font-weight: normal;">
+        AI-人脸考勤
+      </span> <!----></div> <div style="display: none;"></div></li></ul><ul class="tree"><li><div class="tree-node"><span title="AI-客流分析" class="tree-node-title" style="font-weight: normal;">
+        AI-客流分析
+      </span> <!----></div> <div style="display: none;"></div></li></ul><ul class="tree"><li><div class="tree-node"><span title="AI-阳光厨房" class="tree-node-title" style="font-weight: normal;">
+        AI-阳光厨房
+      </span> <!----></div> <div style="display: none;"></div></li></ul><ul class="tree"><li><div class="tree-node"><span title="AI-智慧校园" class="tree-node-title" style="font-weight: normal;">
+        AI-智慧校园
+      </span> <!----></div> <div style="display: none;"></div></li></ul></div></li></ul></div></div> <div style="width: 382px; height: 817px;"></div></div></div> <div class="flex grow pa-3 xs7 sm7 md7 lg7"><div class="tool-bar"><button type="button" class="v-btn v-btn--flat v-btn--icon theme--light" title="在GitLab上编辑" style="float: right;"><div class="v-btn__content"><i aria-hidden="true" class="v-icon material-icons theme--light">edit</i></div></button></div> <div class="markdown" style="width: 100%;"><h2 id="入驻成开发者">入驻成开发者</h2>
+<p>要使用开放平台任何设施首先要成为开放平台开发者。打开<a href="https://oppf.xmcsrv.com/">开放平台首页</a>，点击进入开放平台按钮进行注册，以完成开发者入驻。</p>
+<p><img src="./开放平台_files/docs_pic_00.png" alt=""></p>
+<h2 id="完善资料">完善资料</h2>
+<p>必须先完善开发者资料，比如联系方式公司，这是审核应用的前提。完善资料后请耐心等待后台人员审批通过，通过后方可进入控制台。</p>
+<p><img src="./开放平台_files/docs_pic_01.png" alt=""></p>
+<h2 id="添加应用app">添加应用app</h2>
+<p>完善信息后，可以直接在控制台-创建应用页面中创建应用，对此推荐针对不同平台申请不同的证书，比如：为移动平台中的 Android 平台和 iOS 平台单独添加应用。</p>
+<p><img src="./开放平台_files/docs_pic_02.png" alt=""></p>
+<h2 id="等待审核">等待审核</h2>
+<p>应用创建之后，需要管理员审核之后才可正常接入使用，请耐心等待。</p>
+<p>审核时可以进入 “控制台 － 应用中心 － 应用列表 ”中查看AppKey和movedCard。</p>
+<p>审核通过后进入 “控制台 － 应用中心 － 应用列表 ”中查看AppSecret。</p>
+<p><strong>注意：如果是集成过旧SDK的老客户，在入驻平台之后，联系业务人员或者客服，将uuid切换成老的值，以保证之前注册的用户信息都可以导入到新的系统中来。</strong></p>
+<p><img src="./开放平台_files/docs_pic_03.png" alt=""></p>
+<h2 id="开始与测试">开始与测试</h2>
+<ol>
+<li>
+<p>如何正确的调用API查阅</p>
+</li>
+<li>
+<p>如何使用官方SDK进行开发查阅</p>
+</li>
+<li>
+<p>什么叫用户授权查阅</p>
+</li>
+<li>
+<p>使用沙箱环境进行测试查阅</p>
+</li>
+</ol>
+</div></div> <div class="flex grow pa-3 xs2 sm2 md2 lg2" style="position: relative;"><ul data-v-9c57ac6a="" class="catalog" style="position: fixed; top: 64px; bottom: 0px;"><li data-v-9c57ac6a="" title="入驻成开发者" class="catalog-item active"><a data-v-9c57ac6a="">入驻成开发者</a></li><li data-v-9c57ac6a="" title="完善资料" class="catalog-item"><a data-v-9c57ac6a="">完善资料</a></li><li data-v-9c57ac6a="" title="添加应用app" class="catalog-item"><a data-v-9c57ac6a="">添加应用app</a></li><li data-v-9c57ac6a="" title="等待审核" class="catalog-item"><a data-v-9c57ac6a="">等待审核</a></li><li data-v-9c57ac6a="" title="开始与测试" class="catalog-item"><a data-v-9c57ac6a="">开始与测试</a></li></ul></div></div> <button data-v-6b0fdaee="" type="button" class="v-btn v-btn--bottom v-btn--floating v-btn--fixed v-btn--right theme--dark" style="background-color: rgb(69, 194, 144); border-color: rgb(69, 194, 144); bottom: 16px; right: 60px; display: none;"><div class="v-btn__content"><i data-v-6b0fdaee="" aria-hidden="true" class="v-icon material-icons theme--dark">keyboard_arrow_up</i></div></button></div></div> <div class="flex xs-12"><section style="background: rgb(254, 254, 254);"><!----> <!----> <div class="layout container row"><div class="flex xs12"><p style="text-align: center; color: rgb(33, 33, 33);"><a href="https://beian.miit.gov.cn/" style="text-decoration: none; color: rgb(51, 51, 51);">浙ICP备10052164号-5</a>
+              |
+              <span>© 2019 xmcsrv.com 版权所有</span></p> <p style="text-align: center; color: rgb(33, 33, 33);"></p> <div id="count"></div></div></div></section></div> <div class="login-box"><div class="v-dialog__container" style="display: block;"><div tabindex="-1" class="v-dialog__content" style="z-index: 0;"><div class="v-dialog v-dialog--persistent" style="width: 400px; display: none;"><div class="v-card v-sheet theme--dark teal"><div class="v-card__text">
+        正在验证用户信息，请稍后...
+        <div role="progressbar" aria-valuemin="0" aria-valuemax="100" class="v-progress-linear" style="height: 7px;"><div class="v-progress-linear__background white" style="height: 7px; opacity: 0.3; width: 100%;"></div><div class="v-progress-linear__bar"><div class="v-progress-linear__bar__indeterminate v-progress-linear__bar__indeterminate--active"><div class="v-progress-linear__bar__indeterminate long white"></div><div class="v-progress-linear__bar__indeterminate short white"></div></div><!----></div></div></div></div></div></div></div> <div class="v-dialog__container" style="display: block;"><div tabindex="-1" class="v-dialog__content" style="z-index: 0;"><div class="v-dialog v-dialog--persistent" style="max-width: 400px; display: none;"><div class="v-card v-sheet theme--light"><div class="v-card__title"><h1 class="headline ma-auto" style="letter-spacing: 4px !important;">登录</h1></div> <div class="v-card__text"><div class="i-message i-message-error i-message-center">
+  
+</div> <form novalidate="novalidate" class="v-form"><div class="v-input v-text-field v-input--is-label-active v-input--is-dirty theme--light"><div class="v-input__control"><div class="v-input__slot"><div class="v-text-field__slot"><label aria-hidden="true" class="v-label v-label--active theme--light" style="left: 0px; right: auto; position: absolute;">用户名</label><input aria-label="用户名" required="required" type="text"></div></div><div class="v-text-field__details"><div class="v-messages theme--light"><div class="v-messages__wrapper"></div></div></div></div></div> <div class="v-input v-text-field v-input--is-label-active v-input--is-dirty theme--light"><div class="v-input__control"><div class="v-input__slot"><div class="v-text-field__slot"><label aria-hidden="true" class="v-label v-label--active theme--light" style="left: 0px; right: auto; position: absolute;">密码</label><input aria-label="密码" required="required" type="password"></div></div><div class="v-text-field__details"><div class="v-messages theme--light"><div class="v-messages__wrapper"></div></div></div></div></div> <div style="position: relative;"><div class="v-input v-text-field theme--light"><div class="v-input__control"><div class="v-input__slot"><div class="v-text-field__slot"><label aria-hidden="true" class="v-label theme--light" style="left: 0px; right: auto; position: absolute;">验证码</label><input aria-label="验证码" required="required" type="text"></div></div><div class="v-text-field__details"><div class="v-messages theme--light"><div class="v-messages__wrapper"></div></div></div></div></div> <div style="position: absolute; top: 10px; right: 0px; cursor: pointer;"><div class="i-captcha"><img src="./开放平台_files/captcha" alt="captcha" style="display: block; cursor: pointer; height: 32px;"></div></div></div> <p style="height: 32px; line-height: 32px; margin: 16px 0px;"><span>
+                没有账号?
+                <a class="link">注册</a></span> <a class="link" style="float: right;">忘记密码?</a></p></form></div> <div class="v-card__actions"><button type="button" class="v-btn v-btn--flat theme--light"><div class="v-btn__content">子账号登录</div></button> <div class="spacer"></div> <button type="button" class="v-btn v-btn--flat theme--light"><div class="v-btn__content">取消</div></button> <button type="button" class="v-btn theme--dark teal"><div class="v-btn__content">登录</div></button></div></div> <!----></div></div></div></div></div></div><script type="text/javascript" src="./开放平台_files/manifest.ca9492136d4c8c48b9fc.js.下载"></script><script type="text/javascript" src="./开放平台_files/vendor.5fa3671465f3aee265e7.js.下载"></script><script type="text/javascript" src="./开放平台_files/app.347dcad25facd0cd2a55.js.下载"></script><script type="text/javascript">var app = document.getElementById('app');
+    /**
+     * @return {number}
+     */
+    function IEVersion() {
+        var userAgent = navigator.userAgent; //取得浏览器的userAgent字符串
+        var isIE = userAgent.indexOf("compatible") > -1 && userAgent.indexOf("MSIE") > -1; //判断是否IE<11浏览器
+        var isEdge = userAgent.indexOf("Edge") > -1 && !isIE; //判断是否IE的Edge浏览器
+        var isIE11 = userAgent.indexOf('Trident') > -1 && userAgent.indexOf("rv:11.0") > -1;
+        if (isIE) {
+            var reIE = new RegExp("MSIE (\\d+\\.\\d+);");
+            reIE.test(userAgent);
+            var fIEVersion = parseFloat(RegExp["$1"]);
+            if (fIEVersion === 7) {
+                return 7;
+            } else if (fIEVersion === 8) {
+                return 8;
+            } else if (fIEVersion === 9) {
+                return 9;
+            } else if (fIEVersion === 10) {
+                return 10;
+            } else {
+                return 6;//IE版本<=7
+            }
+        } else if (isIE11) {
+            return 11; //IE11
+        } else {
+            return -1;//不是ie浏览器
+        }
+    }
+
+    if (IEVersion() !== -1) {
+        app.style.display = 'none';
+        document.write('该平台不支持IE浏览器，请使用Chrome、Firefox、Edge或Safari 10+的浏览器打开。');
+    } else {
+        var cnzz_protocol = (("https:" === document.location.protocol) ? "https://" : "http://");
+        document.write(unescape("%3Cspan id='cnzz_stat_icon_1276080202'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol +
+            "s5.cnzz.com/z_stat.php%3Fid%3D1276080202%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));
+        var count = document.getElementById('cnzz_stat_icon_1276080202');
+        count.style.position = 'absolute';
+        count.style.bottom = '15px';
+        count.style.left = '50%';
+        count.style.marginLeft = '-25px';
+    }</script><span id="cnzz_stat_icon_1276080202" style="position: absolute; bottom: 15px; left: 50%; margin-left: -25px;"><a href="https://www.cnzz.com/stat/website.php?web_id=1276080202" target="_blank" title="站长统计"><img border="0" hspace="0" vspace="0" src="./开放平台_files/pic.gif"></a></span><script src="./开放平台_files/z_stat.php" type="text/javascript"></script><script src="./开放平台_files/core.php" charset="utf-8" type="text/javascript"></script></body></html>
