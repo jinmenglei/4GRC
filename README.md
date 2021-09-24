@@ -37,6 +37,7 @@ python写的串口驱动，用于快速接入`西瓜先森的`的车，不对`�
 
 ## B站视频
 我会在发了b站视频后，路径加在这里
+[https://www.bilibili.com/video/BV1Wh411i7uo/](https://www.bilibili.com/video/BV1Wh411i7uo/)
 
 ## 声明
 如果哪位大哥感觉到侵权了，请联系我微信号`jinmenglei001`
